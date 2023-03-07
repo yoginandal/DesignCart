@@ -1,0 +1,160 @@
+
+
+
+/*///////////////////////////slide1///////////////////*/
+.Marketing_home_Content{
+    display: flex;
+}
+
+.About_us_home_lottie{
+    height: 40rem;
+    position: relative;
+    left: 5rem;
+}
+
+.lottie_text_svg{
+    position: relative;
+    left: 8rem;
+}
+
+/*////////////////////////////////*/
+#Marketing_slide_heading_svg {
+    width: 105%;
+    animation: colorFill_services 1.5s ease forwards 4s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(1) {
+    stroke-dasharray: 50rem;
+    background: #0065c3;
+    stroke-dashoffset: 50rem;
+    animation: animateText_services 2s ease forwards 2.3s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(2) {
+    stroke-dasharray: 55.313rem;
+    stroke-dashoffset: 55.313rem;
+    animation: animateText_services 2s ease forwards 0.5s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(3) {
+    stroke-dasharray: 58.063rem;
+    stroke-dashoffset: 58.063rem;
+    animation: animateText_services 2s ease forwards 0.7s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(4) {
+    stroke-dasharray: 58.063rem;
+    stroke-dashoffset: 58.063rem;
+    animation: animateText_services 2s ease forwards 0.9s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(5) {
+    stroke-dasharray: 50rem;
+    stroke-dashoffset: 50rem;
+    animation: animateText_services 2s ease forwards 1.3s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(6) {
+    stroke-dasharray: 37.813rem;
+    stroke-dashoffset: 37.813rem;
+    animation: animateText_services 2s ease forwards 1.5s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(7) {
+    stroke-dasharray: 30.875rem;
+    stroke-dashoffset: 30.875rem;
+    animation: animateText_services 2s ease forwards 1.8s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(8) {
+    stroke-dasharray: 37.813rem;
+    stroke-dashoffset: 37.813rem;
+    animation: animateText_services 2s ease forwards 2s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(9) {
+    stroke-dasharray: 50rem;
+    stroke-dashoffset: 50rem;
+    animation: animateText_services 2s ease forwards 2.3s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(10) {
+    stroke-dasharray: 30.875rem;
+    stroke-dashoffset: 30.875rem;
+    animation: animateText_services 2s ease forwards 2.5s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(11) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 2.7s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(12) {
+    stroke-dasharray: 38.5rem;
+    stroke-dashoffset: 38.5rem;
+    animation: animateText_services 2s ease forwards 2.8s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(13) {
+    stroke-dasharray: 39.5rem;
+    stroke-dashoffset: 39.5rem;
+    animation: animateText_services 2s ease forwards 2.9s;
+  }
+  
+  #Marketing_slide_heading_svg path:nth-child(14) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 3.0s;
+  }
+
+  #Marketing_slide_heading_svg path:nth-child(15) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 3.1s;
+  }
+
+  #Marketing_slide_heading_svg path:nth-child(16) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 3.2s;
+  }
+
+  #Marketing_slide_heading_svg path:nth-child(17) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 3.3s;
+  }
+
+  #Marketing_slide_heading_svg path:nth-child(18) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 3.4s;
+  }
+
+  #Marketing_slide_heading_svg path:nth-child(19) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 3.5s;
+  }
+
+  #Marketing_slide_heading_svg path:nth-child(20) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 3.6s;
+  }
+  
+  @keyframes animateText_services {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes colorFill_services {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: #ffbc01;
+    }
+  }

@@ -1,0 +1,281 @@
+.Graphic_design_slide1 {
+  height: 61rem;
+  background: #ededed;
+}
+
+.web_development_slide2 {
+  top: 0;
+  background: transparent;
+}
+
+.About_us_home_lottie {
+  left: 5%;
+  top: -50%;
+  height: 45rem;
+}
+
+.graphic_design_slide3 {
+  background: #ededed;
+}
+
+.Aboutus_slide4 {
+  padding-bottom: 6rem;
+}
+
+.graphic_design_slide4 {
+  background: #ededed;
+  display: flex;
+  padding: 8rem 8rem;
+  gap: 6rem;
+}
+
+.graphic_design_slide6 {
+  display: flex;
+  background: #ededed;
+}
+
+/*//////////////////////////GRaphic Design heading/////////////////////////*/
+#Graphic_design_heading {
+  width: 85%;
+  animation: colorFill_services 1.5s ease forwards 4s;
+}
+
+#Graphic_design_heading path:nth-child(1) {
+  stroke-dasharray: 50rem;
+  background: #0065c3;
+  stroke-dashoffset: 50rem;
+  animation: animateText_services 2s ease forwards 2.3s;
+}
+
+#Graphic_design_heading path:nth-child(2) {
+  stroke-dasharray: 55.313rem;
+  stroke-dashoffset: 55.313rem;
+  animation: animateText_services 2s ease forwards 0.5s;
+}
+
+#Graphic_design_heading path:nth-child(3) {
+  stroke-dasharray: 58.063rem;
+  stroke-dashoffset: 58.063rem;
+  animation: animateText_services 2s ease forwards 0.7s;
+}
+
+#Graphic_design_heading path:nth-child(4) {
+  stroke-dasharray: 58.063rem;
+  stroke-dashoffset: 58.063rem;
+  animation: animateText_services 2s ease forwards 0.9s;
+}
+
+#Graphic_design_heading path:nth-child(5) {
+  stroke-dasharray: 50rem;
+  stroke-dashoffset: 50rem;
+  animation: animateText_services 2s ease forwards 1.3s;
+}
+
+#Graphic_design_heading path:nth-child(6) {
+  stroke-dasharray: 37.813rem;
+  stroke-dashoffset: 37.813rem;
+  animation: animateText_services 2s ease forwards 1.5s;
+}
+
+#Graphic_design_heading path:nth-child(7) {
+  stroke-dasharray: 30.875rem;
+  stroke-dashoffset: 30.875rem;
+  animation: animateText_services 2s ease forwards 1.8s;
+}
+
+#Graphic_design_heading path:nth-child(8) {
+  stroke-dasharray: 37.813rem;
+  stroke-dashoffset: 37.813rem;
+  animation: animateText_services 2s ease forwards 2s;
+}
+
+#Graphic_design_heading path:nth-child(9) {
+  stroke-dasharray: 50rem;
+  stroke-dashoffset: 50rem;
+  animation: animateText_services 2s ease forwards 2.3s;
+}
+
+#Graphic_design_heading path:nth-child(10) {
+  stroke-dasharray: 30.875rem;
+  stroke-dashoffset: 30.875rem;
+  animation: animateText_services 2s ease forwards 2.5s;
+}
+
+#Graphic_design_heading path:nth-child(11) {
+  stroke-dasharray: 37.5rem;
+  stroke-dashoffset: 37.5rem;
+  animation: animateText_services 2s ease forwards 2.7s;
+}
+
+#Graphic_design_heading path:nth-child(12) {
+  stroke-dasharray: 38.5rem;
+  stroke-dashoffset: 38.5rem;
+  animation: animateText_services 2s ease forwards 2.7s;
+}
+
+#Graphic_design_heading path:nth-child(13) {
+  stroke-dasharray: 39.5rem;
+  stroke-dashoffset: 39.5rem;
+  animation: animateText_services 2s ease forwards 2.7s;
+}
+
+#Graphic_design_heading path:nth-child(14) {
+  stroke-dasharray: 37.5rem;
+  stroke-dashoffset: 37.5rem;
+  animation: animateText_services 2s ease forwards 2.7s;
+}
+
+@keyframes animateText_services {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes colorFill_services {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #92e3a9;
+  }
+}
+
+/*///////////////////////sub_heading home lottie/////////////////////////*/
+
+#Graphic_Design_text_change,
+.Graphic_Design_text_change {
+  color: #24262b;
+  font-size: 2.9rem;
+}
+
+/*//////////////////////////////////////slide2//////////////////////////////////*/
+.icon_services{
+  fill: black;
+}
+
+.icon_heading, .icon_text{
+  color: black;
+}
+
+/*///////////////////////////////////slide3//////////////////////////////////*/
+.Graphic_design_slide3_heading {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.Graphic_design_slide3_text {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 3rem 10rem 6rem;
+}
+
+/*////////////////////////////////slide4///////////////////////////////*/
+.graphic_design_slide4_card {
+  width: 20%;
+  text-align: center;
+}
+
+.graphic_design_slide4_svg {
+  height: 6rem;
+}
+
+.graphic_design_slide4_svg_heading {
+  font-size: 2rem;
+  color: #92e3a9;
+  text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.02);
+  padding: 0.6rem 0 0.5rem;
+}
+
+/*///////////////////////////////////skill//////////////////////////////*/
+.Aboutus_slide4_graph {
+  padding-top: 3rem;
+}
+
+.AboutUs_slide4_lottie {
+  height: 30rem;
+}
+
+.Our_Skills {
+  font-size: 3.5rem;
+  color: #92e3a9;
+  text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding-top: 2rem;
+}
+
+.skill {
+  position: relative;
+  top: 3rem;
+}
+
+/*////////////////////////////////slide 5///////////////////////*/
+ 
+.slider {
+  width: 100%;
+  text-align: center;
+  padding: 5rem;
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem 0;
+  list-style-type: none;
+}
+.slick-dots li {
+  margin: 0 0.25rem;
+}
+.slick-dots button {
+  display: block;
+  width: 0.6rem;
+  height: 0.6rem;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: grey;
+  text-indent: -9999px;
+}
+.slick-dots li.slick-active button {
+  background-color: black;
+}
+
+.Slider_heading{
+  font-size: 2.2rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+.Slider_text{
+  margin: 0 0 2rem;
+  font-size: 1.2rem;
+}
+
+.color_change_slider{
+  color: #92e3a9;
+}
+
+/*////////////////////////////////slide 6///////////////////////*/
+.faq_container {
+  color: #282828;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  position: relative;
+  top: 11.5rem;
+  left: -5rem;
+  width: 65rem;
+}
+
+.title {
+  background: #92e3a9;
+}
+
+.graphic_design_slide6_lottie {
+  height: 45rem;
+  position: relative;
+  left: 15rem;
+}
+
+#container {
+  width: 160%;
+}

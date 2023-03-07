@@ -1,0 +1,317 @@
+.Brand_Identity_slide1{
+    background: #222C4E;
+    height: 61rem;
+}
+
+.Brand_Identity_slide3{
+    background: #222C4E;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.Brand_Identity_slide4{
+    display: flex;
+}
+
+.Brand_Identity_slide5{
+    background: #222C4E;
+    color: #f0f0f0;
+}
+
+.Brand_Identity_slide6{
+  height: 30rem;
+}
+
+.Brand_Identity_slide7{
+  height: 20rem;
+  background: #222C4E;
+}
+
+/*//////////////////////////slide1//////////////////////////*/
+
+.Brand_Slide1{
+    display: flex;
+}
+
+
+.Brand_slide1_lottie{
+    height: 55rem;
+    position: relative;
+    top: -10rem;
+    left: 7rem;
+    border: 0.063rem solid #222C4E;
+}
+
+.Brand_Slide1_text{
+    padding: 10rem 0 10rem 10rem;
+}
+
+#Brand_heading_svg {
+    width: 45rem;
+    animation: colorFill_services 1.5s ease forwards 4s;
+  }
+  
+  #Brand_heading_svg path:nth-child(1) {
+    stroke-dasharray: 50rem;
+    background: #0065c3;
+    stroke-dashoffset: 50rem;
+    animation: animateText_services 2s ease forwards 2.3s;
+  }
+  
+  #Brand_heading_svg path:nth-child(2) {
+    stroke-dasharray: 55.313rem;
+    stroke-dashoffset: 55.313rem;
+    animation: animateText_services 2s ease forwards 0.5s;
+  }
+  
+  #Brand_heading_svg path:nth-child(3) {
+    stroke-dasharray: 58.063rem;
+    stroke-dashoffset: 58.063rem;
+    animation: animateText_services 2s ease forwards 0.7s;
+  }
+  
+  #Brand_heading_svg path:nth-child(4) {
+    stroke-dasharray: 58.063rem;
+    stroke-dashoffset: 58.063rem;
+    animation: animateText_services 2s ease forwards 0.9s;
+  }
+  
+  #Brand_heading_svg path:nth-child(5) {
+    stroke-dasharray: 50rem;
+    stroke-dashoffset: 50rem;
+    animation: animateText_services 2s ease forwards 1.3s;
+  }
+  
+  #Brand_heading_svg path:nth-child(6) {
+    stroke-dasharray: 37.813rem;
+    stroke-dashoffset: 37.813rem;
+    animation: animateText_services 2s ease forwards 1.5s;
+  }
+  
+  #Brand_heading_svg path:nth-child(7) {
+    stroke-dasharray: 30.875rem;
+    stroke-dashoffset: 30.875rem;
+    animation: animateText_services 2s ease forwards 1.8s;
+  }
+  
+  #Brand_heading_svg path:nth-child(8) {
+    stroke-dasharray: 37.813rem;
+    stroke-dashoffset: 37.813rem;
+    animation: animateText_services 2s ease forwards 2s;
+  }
+  
+  #Brand_heading_svg path:nth-child(9) {
+    stroke-dasharray: 50rem;
+    stroke-dashoffset: 50rem;
+    animation: animateText_services 2s ease forwards 2.3s;
+  }
+  
+  #Brand_heading_svg path:nth-child(10) {
+    stroke-dasharray: 30.875rem;
+    stroke-dashoffset: 30.875rem;
+    animation: animateText_services 2s ease forwards 2.5s;
+  }
+  
+  #Brand_heading_svg path:nth-child(11) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 2.7s;
+  }
+  
+  #Brand_heading_svg path:nth-child(12) {
+    stroke-dasharray: 38.5rem;
+    stroke-dashoffset: 38.5rem;
+    animation: animateText_services 2s ease forwards 2.8s;
+  }
+  
+  #Brand_heading_svg path:nth-child(13) {
+    stroke-dasharray: 39.5rem;
+    stroke-dashoffset: 39.5rem;
+    animation: animateText_services 2s ease forwards 2.9s;
+  }
+  
+  #Brand_heading_svg path:nth-child(14) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 3.0s;
+  }
+
+  
+  @keyframes animateText_services {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes colorFill_services {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: #92e3a9;
+    }
+  }
+
+  .web_development_button{
+    background: #92e3a9;
+  }
+
+  .web_development_text{
+    color: #f0f0f0;
+  }
+
+  .link2{
+    color: #f0f0f0;
+  }
+
+  .atom{
+    background: #f0f0f0;
+  }
+
+  .ham:hover .atom{
+    background: #f0f0f0;
+  }
+
+  .web_development_text_color{
+    color: #92e3a9;
+  }
+
+  .border_box{
+    background: #222C4E;
+    height: 4rem;
+    width: 65rem;
+    position: relative;
+    top: -15rem;
+  }
+
+  .Brand_Identity_text_change{
+    color: #f0f0f0;
+    font-size: 3rem;
+  }
+
+
+  /*////////////////////////////////////slide2//////////////////*/
+  .Graphic_design_slide2{
+    position: relative;
+    top: 0;
+    background: transparent;
+  }
+
+  .icon_services{
+    fill: #282828;
+  }
+
+  .icon_heading, .icon_text{
+    color: #282828;
+  }
+  /*//////////////////////////////slide3///////////////////////*/
+.color_change{
+    color: #ffbc01;
+}
+
+.underline_Brand{
+    border-bottom: 0.3rem solid #ffbc01;
+}
+
+.Brand_slide3_text{
+    padding: 5rem 10rem;
+}
+
+.Brand_3_heading{
+    letter-spacing: 0.3rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.Brand_3_text{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+/*////////////////////////////////slide4////////////////////////*/
+.Brand_4_heading{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.Brand_4_text::before{
+        font-family: FontAwesome;
+        content: "\f046";
+        margin: 0 0.563rem 0 -0.938rem !important;
+        font-size: 1.125rem;
+        position: relative;
+        top: 0.125rem;
+}
+
+.Brand_4_text{
+    padding: 0.6rem 0.8rem;
+    font-size: 1.2rem;
+}
+
+.Brand_4_lottie{
+    height: 45rem;
+    position: relative;
+    left: 2.5rem;
+}
+
+.Brand_slide4_text{
+    padding: 15rem 0 0 10rem;
+    width: 90%;
+}
+
+.Brand_4_text_unorder_list{
+    padding-top: 2rem;
+}
+
+/*/////////////////////////////////////slide5///////////////////////*/
+.slider {
+    width: 100%;
+    text-align: center;
+    padding: 5rem;
+  }
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+  }
+  .slick-dots li {
+    margin: 0 0.25rem;
+  }
+  .slick-dots button {
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: grey;
+    text-indent: -9999px;
+  }
+  .slick-dots li.slick-active button {
+    background-color: black;
+  }
+  
+  .Slider_heading{
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+  }
+  
+  .Slider_text{
+    margin: 0 0 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .color_change_slider{
+    color: #92e3a9;
+  }
+  
+  /*///////////////slide6///////////////*/
+  .slide6_lottie{
+    z-index: 1;
+    height: 35rem;
+    position: relative;
+    top: -12rem;
+  }
